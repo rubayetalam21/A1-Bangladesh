@@ -1,118 +1,117 @@
-
 /* Font Style*/
 
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: normal;
-  }
-  
-  .fira-sans-extralight {
+}
+
+.fira-sans-extralight {
     font-family: "Fira Sans", serif;
     font-weight: 200;
     font-style: normal;
-  }
-  
-  .fira-sans-light {
+}
+
+.fira-sans-light {
     font-family: "Fira Sans", serif;
     font-weight: 300;
     font-style: normal;
-  }
-  
-  .fira-sans-regular {
+}
+
+.fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .fira-sans-medium {
+}
+
+.fira-sans-medium {
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-style: normal;
-  }
-  
-  .fira-sans-semibold {
+}
+
+.fira-sans-semibold {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-style: normal;
-  }
-  
-  .fira-sans-bold {
+}
+
+.fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .fira-sans-extrabold {
+}
+
+.fira-sans-extrabold {
     font-family: "Fira Sans", serif;
     font-weight: 800;
     font-style: normal;
-  }
-  
-  .fira-sans-black {
+}
+
+.fira-sans-black {
     font-family: "Fira Sans", serif;
     font-weight: 900;
     font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
+}
+
+.fira-sans-thin-italic {
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
+}
+
+.fira-sans-extralight-italic {
     font-family: "Fira Sans", serif;
     font-weight: 200;
     font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
+}
+
+.fira-sans-light-italic {
     font-family: "Fira Sans", serif;
     font-weight: 300;
     font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
+}
+
+.fira-sans-regular-italic {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
+}
+
+.fira-sans-medium-italic {
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
+}
+
+.fira-sans-semibold-italic {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
+}
+
+.fira-sans-bold-italic {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
+}
+
+.fira-sans-extrabold-italic {
     font-family: "Fira Sans", serif;
     font-weight: 800;
     font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
+}
+
+.fira-sans-black-italic {
     font-family: "Fira Sans", serif;
     font-weight: 900;
     font-style: italic;
-  }
-  
+}
+
 
 /* Shared Style*/
 
-.btn-primary{
+.btn-primary {
     background-color: white;
     color: #006A50;
     font-weight: 600;
@@ -124,10 +123,14 @@
 
 }
 
+body {
+    background-color: #f5f5f5;
+}
+
 
 /* Nav Styles*/
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,7 +138,7 @@ nav{
 
 }
 
-.nav-title{
+.nav-title {
     font-weight: bold;
     font-size: 28px;
     color: #0E0E0E;
@@ -143,18 +146,18 @@ nav{
 
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     font-size: 16px;
 }
 
 /* Banner Styles */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,77 +166,81 @@ nav li a{
     padding: 80px 60px;
     border-radius: 20px;
 }
-.btn-explore{
+
+.btn-explore {
     background-color: #006A50;
     color: #FFFFFF;
 }
 
-.banner-title{
+.banner-title {
     color: #0E0E0E;
 }
 
-.banner-description{
+.banner-description {
     color: #0E0E0E;
     font-weight: bold;
 }
 
-.banner-profile-picture{
+.banner-profile-picture {
     width: 520px;
 }
 
-.banner-content{
+.banner-content {
     width: 480px;
 }
 
 /* Header */
-.header{
-
-}
+.header {}
 
 /* Main */
 
 /* Vision */
 
-.vision{
+.vision {
     margin: 40px 50px;
 
 }
 
-.heading-vision{
+.heading-vision {
     font-size: 36px;
     font-weight: bold;
 }
 
-.vision-container{
+.vision-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.btn-DT{
+.btn-DT {
     background-color: #5490F5;
     color: #FFFFFF;
 }
-.btn-GE{
+
+.btn-GE {
     background-color: #09A15C;
     color: #FFFFFF;
 }
-.btn-MI{
+
+.btn-MI {
     background-color: #FFC239;
     color: #FFFFFF;
 }
-.bd-vision-DT{
-    background-color:rgba(84,144,245, 0.20);
-}
-.bd-vision-GE{
-    background-color: #C6E4D6;
-}
-.bd-vision-MI{
-    background-color: #F7EBCF ;
-   
+
+.bd-vision-DT {
+    background-color: rgba(84, 144, 245, 0.20);
 }
 
-.VC{
+.bd-vision-GE {
+    background-color: #C6E4D6;
+}
+
+.bd-vision-MI {
+    background-color: #F7EBCF;
+
+}
+
+.VC {
     border-radius: 14px;
     padding: 32px 32px;
     font-size: 14px;
@@ -241,116 +248,135 @@ nav li a{
 
 /* Quote Section */
 
-.quote{
+.quote {
     margin: 40px 50px;
     padding: 48px 24px;
     border-radius: 16px;
     stroke-width: 1px;
     stroke-opacity: 15%;
-    background-color: #C6E4D6;
+    background-color: white;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 24px 34px;
 }
 
 /* Recent News */
 
-.news-section{
+.news-section {
     margin: 40px 50px;
 }
-.rn-div-1{
+
+.rn-div-1 {
     display: flex;
     gap: 32px;
-    background-color: rgba(14,14,14, 0.15);
-    margin-top: 32px;
-    padding: 40px 40px;
-    border-radius: 10px;
-}
-.rn-div-2{
-    display: flex;
-    gap: 32px;
-    background-color: rgba(14,14,14, 0.15);
-    margin-top: 32px;
-    padding: 40px 40px;
-    border-radius: 10px;
-}
-.rn-div-3{
-    display: flex;
-    gap: 32px;
-    background-color: rgba(14,14,14, 0.15);
+    background-color: white;
     margin-top: 32px;
     padding: 40px 40px;
     border-radius: 10px;
 }
 
-.donate-item-2{
+.rn-div-2 {
+    display: flex;
+    gap: 32px;
+    background-color: white;
+    margin-top: 32px;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.rn-div-3 {
+    display: flex;
+    gap: 32px;
+    background-color: white;
+    margin-top: 32px;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.donate-item-2 {
     display: flex;
     justify-content: space-between;
-  
+
 }
-.donate-section{
+
+.donate-section {
     margin: 40px 50px;
     padding: 40px 70px;
 
 }
-.btn-donate{
+
+.btn-donate {
     width: 240px;
     height: 85px;
 }
-.donate-heading{
+
+.donate-heading {
     text-align: center;
 }
-.donate-description{
+
+.donate-description {
     text-align: center;
 }
-.input-donate{
+
+.input-donate {
     width: max-content;
 }
 
-.btn-donate-submit{
+.btn-donate-submit {
     margin-top: 30px;
     text-align: center;
 }
-.subscribe-heading{
+
+.subscribe-heading {
     text-align: center;
 }
-.subscribe-content{
+
+.subscribe-content {
     text-align: center;
     font-size: 12px;
 }
-.subscribe-div{
+
+.subscribe-div {
     background-color: #C6E4D6;
     border-radius: 24px;
     margin: 40px 50px;
     padding: 80px 60px;
-    
+
 }
-.footer-heading{
+
+.footer-heading {
     text-align: center;
 }
 
-footer ul li{
+footer ul li {
     list-style: none;
 }
-footer ul a{
+
+footer ul a {
     text-decoration: none;
 }
 
-ul{
+ul {
     display: flex;
     align-content: center;
     gap: 10px;
     justify-content: center;
 }
 
-hr{
+hr {
     margin: 0 50px;
 }
-.image{
+
+img {
     border-radius: 10px;
 }
-.btn-2{
+
+.btn-2 {
     background-color: #C6E4D6;
 }
 
-.donate-item-3 input[type="text"]{
+.donate-item-3 input[type="text"] {
     height: 40px;
     border-radius: 5px;
     background-color: white;
@@ -359,20 +385,32 @@ hr{
     padding: 10px 20px;
     margin-top: 20px;
 }
+
 .donate-item-3 [type="text"]::placeholder {
     text-align: center;
 }
 
-.subscribe-form input[type="text"]{
+.subscribe-form input[type="text"] {
     height: 20px;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     background-color: white;
     width: 70%;
     padding: 10px 20px;
-    margin-top: 20px;
 }
-.btn-subscribe{
+
+.btn-subscribe {
     margin-left: 0px;
     background-color: #006A50;
     color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn-primary:hover {
+    background-color: aquamarine;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    gap: 0;
 }
