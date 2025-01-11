@@ -119,6 +119,8 @@
     padding: 11px 20px;
     border-radius: 8px;
     border-color: #006A50;
+    cursor: pointer;
+
 
 }
 
@@ -136,6 +138,8 @@ nav{
 .nav-title{
     font-weight: bold;
     font-size: 28px;
+    color: #0E0E0E;
+    opacity: 50%;
 
 }
 
@@ -219,7 +223,7 @@ nav li a{
     color: #FFFFFF;
 }
 .bd-vision-DT{
-    background-color: #5490F5;
+    background-color:rgba(84,144,245, 0.20);
 }
 .bd-vision-GE{
     background-color: #C6E4D6;
@@ -251,36 +255,31 @@ nav li a{
 .news-section{
     margin: 40px 50px;
 }
-.news-heading{
-
-}
-.news-description{
-
-}
 .rn-div-1{
     display: flex;
     gap: 32px;
-    background-color: #C6E4D6;
+    background-color: rgba(14,14,14, 0.15);
     margin-top: 32px;
     padding: 40px 40px;
+    border-radius: 10px;
 }
 .rn-div-2{
     display: flex;
     gap: 32px;
-    background-color: #C6E4D6;
+    background-color: rgba(14,14,14, 0.15);
     margin-top: 32px;
     padding: 40px 40px;
+    border-radius: 10px;
 }
 .rn-div-3{
     display: flex;
     gap: 32px;
-    background-color: #C6E4D6;
+    background-color: rgba(14,14,14, 0.15);
     margin-top: 32px;
     padding: 40px 40px;
+    border-radius: 10px;
 }
-.news-section{
-  
-}
+
 .donate-item-2{
     display: flex;
     justify-content: space-between;
@@ -288,7 +287,7 @@ nav li a{
 }
 .donate-section{
     margin: 40px 50px;
-    padding: 0 70px;
+    padding: 40px 70px;
 
 }
 .btn-donate{
@@ -306,7 +305,8 @@ nav li a{
 }
 
 .btn-donate-submit{
-    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
 }
 .subscribe-heading{
     text-align: center;
@@ -342,4 +342,37 @@ ul{
 
 hr{
     margin: 0 50px;
+}
+.image{
+    border-radius: 10px;
+}
+.btn-2{
+    background-color: #C6E4D6;
+}
+
+.donate-item-3 input[type="text"]{
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 95%;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.donate-item-3 [type="text"]::placeholder {
+    text-align: center;
+}
+
+.subscribe-form input[type="text"]{
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    width: 70%;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.btn-subscribe{
+    margin-left: 0px;
+    background-color: #006A50;
+    color: white;
 }
