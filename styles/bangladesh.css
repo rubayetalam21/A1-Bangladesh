@@ -305,6 +305,8 @@ nav li a {
 .btn-donate {
     width: 240px;
     height: 85px;
+    font-size: 30px;
+    color: black;
 }
 
 .donate-heading {
@@ -331,22 +333,15 @@ nav li a {
 .subscribe-content {
     text-align: center;
     font-size: 12px;
+    padding: 0px 200px;
 }
 
 .subscribe-div {
     background-color: #C6E4D6;
     border-radius: 24px;
     margin: 40px 50px;
-    padding: 80px 60px;
-
-}
-
-.footer-heading {
-    text-align: center;
-}
-
-footer ul li {
     list-style: none;
+    padding: 60px 60px;
 }
 
 footer ul a {
